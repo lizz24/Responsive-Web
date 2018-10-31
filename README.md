@@ -27,4 +27,4 @@ meta name="viewport" content="width=device-width, initial-scale=1.0" .
 
 @see :+1:
 ## REFERENCES
-This site was referenced from [w3schools](https://www.w3schools.com/html/html_responsive.asp)
+This content was referenced from [w3schools](https://www.w3schools.com/html/html_responsive.asp)
