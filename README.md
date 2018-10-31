@@ -25,6 +25,6 @@ Setting The Viewport HTML5 introduced a method to let web designers take control
 
 meta name="viewport" content="width=device-width, initial-scale=1.0" .
 
-@see :+1:
+Got it! :+1:
 ## REFERENCES
 This content was referenced from [w3schools](https://www.w3schools.com/html/html_responsive.asp)
