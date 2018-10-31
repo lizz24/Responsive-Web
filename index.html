@@ -1,0 +1,190 @@
+   <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>My Responsive Navigation</title>
+    <meta name="description" content="CSS only mobile first navigation">
+    <meta name="author" content="elizabeth">
+ 
+    <!--Mobile specific meta goodness :)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">  
+    <!--css-->
+    <link rel="stylesheet" href="../Responsive-Web/CSS/main.css" type="text/css" media="all">
+     
+    <!--JAVASCRIPT-->
+    <script type="text/javascript" src="../Responsive-Web/Javascript/main.js"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>TECHNICAL DOCUMENTATION</header>
+      <ul>
+        <a class="nav-link" href="#Responsive_web_Intro" rel="internal"><li>Responsive web Intro</li></a>
+        <a class="nav-link" href="#Designing_for_all_Devices" rel="internal"><li>Designing for all Devices</li></a>
+        <a class="nav-link" href="#The_ViewPort" rel="internal"><li>The ViewPort</li></a>
+        <a class="nav-link" href="#JavaScript" rel="internal"><li>JavaScript</li></a>
+        <a class="nav-link" href="#Media_Query" rel="internal"><li>Media Query</li></a>
+        <a class="nav-link" href="#Frame_works" rel="internal"><li>Frame works</li></a>
+        
+        
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Responsive_web_Intro">
+        <header>Responsive web Intro</header>
+        <article>
+          <p>What is Responsive Web Design?</p>
+
+    <p>Responsive web design makes your web page look good on all devices.</p>
+
+           <li>Responsive web design uses only HTML and CSS.</li> 
+            
+           <li>Responsive web design is not a program or a JavaScript</li> 
+
+    
+          </article>
+        </section>
+      <section class="main-section" id="Designing_for_all_Devices">
+        <header>Designing for all Devices</header>
+        <article>
+          <p>Web pages can be viewed using many different devices:</p>
+
+          <li>desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device..</li>
+          <li>It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.</li>
+    <li>Web pages should not leave out information to fit smaller devices, but rather adapt its content to fit any device</li>
+          </article>
+        </section>
+      <section class="main-section" id="The_ViewPort">
+        <header>The ViewPort</header>
+        <article>
+        <p>The viewport is the user's visible area of a web page.The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.</p>
+
+    <p>Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.</p>
+    <p>Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.</p>
+    <p>
+            Setting The Viewport
+            HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.
+            
+            You should include the following <meta> viewport element in all your web pages:
+            <br>
+            <br>
+            <code>meta name="viewport" content="width=device-width, initial-scale=1.0" </code>
+            
+    </p>
+        </article>
+        </section>
+      <section class="main-section" id="JavaScript">
+        <header>JavaScript</header>
+        <article>
+            Why Study JavaScript?
+            <br>
+            JavaScript is one of the 3 languages all web developers must learn:
+            
+            <li>1. HTML to define the content of web pages</li>   
+            
+              <li> 2. CSS to specify the layout of web pages</li> 
+            
+            <li> 3. JavaScript to program the behavior of web pages</li>   
+           <br> 
+            Web pages are not the only place where JavaScript is used. Many desktop and server programs use JavaScript. Node.js is the best known. Some databases, like MongoDB and CouchDB, also use JavaScript as their programming language
+    <br>
+            To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+    <code>function greetMe(yourName) {
+      alert("Hello " + yourName);
+    }
+    greetMe("World");
+    </code>
+
+    Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+        </article>
+        </section>
+      <section class="main-section" id="Media_Query">
+        <header>Media Query</header>
+        <p>
+            Media query is a CSS technique introduced in CSS3.
+            It uses the;<code>@media</code> rule to include a block of CSS properties only if a certain condition is true.
+        </p>
+        <p>
+            Example
+            <br>
+            If the browser window is 600px or smaller, the background color will be lightblue:
+            <br>
+            <code>
+                @media only screen and (max-width: 600px) {
+                  body {
+                      background-color: lightblue;
+                  }
+              }
+            </code>
+            
+        </p>
+        
+
+        </section>
+      <section class="main-section" id="Frame_works">
+        <header>Frame works</header>
+        <article>
+            There are many existing CSS Frameworks that offer Responsive Design.
+            They are free, and easy to use.
+          <p>
+              A great way to create a responsive design, is to use a responsive style sheet, like Bootstrap
+          </p>
+          <p>
+              it uses HTML, CSS and jQuery to make responsive web pages.
+          </p>
+          <p>
+            EXAMPLE
+            <br>
+            YOU CAN RUN THAT SOURCE CODE IN YOUR HTML WEBSITE AND YOU WILL SEE GREAT RESULTS
+            <code>
+              <xmp>
+                  <!DOCTYPE html>
+                  <html lang="en">
+                  <head>
+                  <title>Bootstrap Example</title>
+                  <meta charset="utf-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                  </head>
+                  <body>
+                  
+                  <div class="container">
+                    <div class="jumbotron">
+                      <h1>My First Bootstrap Page</h1>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        ...
+                      </div>
+                      <div class="col-sm-4">
+                        ...
+                      </div>
+                      <div class="col-sm-4">
+                      ...
+                      </div>
+                    </div>
+                  </div>
+                  
+                  </body>
+                  </html>
+              </xmp>
+            </code>
+          </p>
+        </article>
+        <article>
+            
+          <li>All the documentation in this page is taken from <a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3SCHOOLS</a>
+<p>NAKIJJO ELIZABETH CYCLE 3</p>
+
+          </article>
+        </section>
+      
+        
+    </main>
+
+  </body>
+</html>
